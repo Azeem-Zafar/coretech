@@ -1,0 +1,76 @@
+  /* heading style */
+  .aboutHead {
+    font-family: 'Oswald', sans-serif;
+    margin: 100px auto;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    max-width: 600px;
+    position: relative;
+  }
+  .aboutHead:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #CD5C5C;
+    left: -10px;
+    top: 50%;
+    position: absolute;
+  }
+  .aboutHead:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #CD5C5C;
+    right: -10px;
+    top: 50%;
+    position: absolute;
+  }
+
+
+
+.coreTech
+{
+  color: #CD5C5C;
+  font-size: 80px;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .aboutHead {
+        font-family: sans-serif;
+        margin: 100px auto;
+        text-align: center;
+        color: black;
+        font-size: 20px;
+        max-width: 600px;
+        position: relative;
+      }
+      .aboutHead:before {
+        content: "";
+        display: block;
+        width: 90px;
+        height: 5px;
+        background: #CD5C5C;
+        left: 10px;
+        top: 50%;
+        position: absolute;
+      }
+      .aboutHead:after {
+        content: "";
+        display: block;
+        width: 90px;
+        height: 5px;
+        background: #CD5C5C;
+        right: 10px;
+        top: 50%;
+        position: absolute;
+      }
+    
+  }

@@ -1,0 +1,115 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.navLogo
+{
+    width: 150px;
+}
+.navItems
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;  
+}
+.clip
+{  height: 90vh;
+    width: 100%;
+    /* clip-path: circle(100% at 21.2% -6% ); */
+    clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 80%, 50% 100%, 50% 100%, 0 80%, 0% 43%, 0 0);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('E:\react\CoreTech Official\coretech\public\images\bg2.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+}
+.head
+{
+    height: 70vh;
+    text-align: center;
+}
+.text
+{
+    line-height: 5vh;
+    margin-top:70px;
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+.paratext
+{
+    line-height: 3vh;
+    
+    padding: 15px;
+}
+.button {
+    border-radius: 4px;
+    background-color: #2b2391;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .clip
+    { 
+         height: 90vh;
+        width: 100%;
+        clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 80%, 50% 100%, 50% 100%, 0 80%, 0% 43%, 0 0);
+        background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('E:\react\CoreTech Official\coretech\public\images\bg2.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       border-bottom-right-radius: 0%;
+      
+    }
+    .text
+{
+    text-align: center;
+    line-height: 5vh;
+    margin-top:80px;
+    padding: 15px;
+}
+.paratext
+{
+    line-height: 3vh;
+    text-align: center;
+    padding: 10px;
+}
+  .mybtn
+  {
+    margin: 0px;
+    width: 10%0px;
+   
+  }
+  }
